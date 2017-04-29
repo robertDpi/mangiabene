@@ -1,7 +1,7 @@
 [{
     "type": "internal",
     "trans": "menu.home",
-    "route": "public.posts",
+    "route": "public.posts.id({ id: 1 })",
     "icon": "icon ion-home"
 }, {
     "type": "separator",
