@@ -5,7 +5,7 @@
     "icon": "icon ion-home"
 }, {
     "type": "separator",
-    "trans": "Posts type"
+    "trans": "Change me"
 }, {
     "type": "folder",
     "trans": "menu.posts",
