@@ -7,6 +7,7 @@
                     <i class="icon ion-navicon-round"></i>
                 </button>
             </ion-nav-buttons>
+            <!-- Top menu search  -->
             <ion-nav-buttons side="right">
                 <button ui-sref="public.search" ui-sref-active="ng-hide" class="button button-clear">
                     <i class="icon ion-ios-search-strong"></i>
@@ -16,6 +17,5 @@
         <ion-nav-view name="content"></ion-nav-view>
     </ion-side-menu-content>
     <ion-side-menu ng-if="::appLoaded" side="left" expose-aside-when="{{main.exposeAsideWhen}}" ui-view="menu">
-
     </ion-side-menu>
 </ion-side-menus>
