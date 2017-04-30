@@ -25,7 +25,7 @@
         <script src="cordova.js"></script>
     </head>
 
-    <body ng-strict-di ng-app="wordpress-hybrid-client"  ng-class="{'{{item.name}}' : item.condition}">
+    <body ng-strict-di ng-app="wordpress-hybrid-client">
 
         <ion-nav-view></ion-nav-view>
         {% for (var chunk in o.htmlWebpackPlugin.files.chunks) { %}
