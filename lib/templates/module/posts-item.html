@@ -1,5 +1,11 @@
 <ion-view>
-    <ion-nav-title ng-bind-html="::postCtrl.item.title.rendered"></ion-nav-title>
+    <!-- <ion-nav-title ng-bind-html="::postCtrl.item.title.rendered"></ion-nav-title> -->
+  <!-- <div ion-content scroll="false" class="item item-image" ng-if="::postCtrl.post.featured_media != 0" wphc-img-background-cache="{{::postCtrl.featured_image}}"></div> -->
+
+    <!-- <img wphc-img-background-cache="{{::WPHCPagesController.post.featured_image}}">
+    <img class="item item-image" src="{{::WPHCPagesController.post.featured_image}}" alt="">
+    <img class="item item-image" src="{{::postCtrl.item.featured_image}}" alt="">
+    <img class="item item-image" src="{{::WPHCPagesController.item.featured_image}}" alt=""> -->
     <ion-content>
         <wphc-loader ng-if="!postCtrl.item" on-load="postCtrl.init()"></wphc-loader>
         <ion-refresher pulling-text="{{ 'pullToRefresh' | translate}}" on-refresh="postCtrl.refresh()"></ion-refresher>
