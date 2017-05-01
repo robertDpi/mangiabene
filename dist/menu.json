@@ -6,7 +6,24 @@
 }, {
     "type": "separator",
     "trans": "Change me"
-}, {
+},
+  {
+   "type": "folder",
+   "trans": "menu.posts",
+   "icon": "icon ion-ios-paper",
+   "list": [{
+       "type": "internal",
+       "trans": "Hello world",
+       "route": "public.posts.id({ id: 1 })",
+       "icon": "icon ion-android-document"
+   }, {
+       "type": "internal",
+       "trans": "All",
+       "route": "public.posts",
+       "icon": "icon ion-ios-paper"
+   }]
+},
+ {
     "type": "folder",
     "trans": "menu.posts",
     "icon": "icon ion-ios-paper",

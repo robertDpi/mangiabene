@@ -5,6 +5,7 @@ require 'ionic-angular/release/js/ionic.bundle.js'
 require './angular-ios9-uiwebview.patch.js'
 require 'angular-cache'
 require 'angular-moment'
+require 'animate.css'
 require 'moment'
 require './font/font.coffee'
 require 'expose?_!lodash'
@@ -145,7 +146,7 @@ app.run ($rootScope, $log, $WPHCConfig, $translate, $document, $WPHCLanguage, $i
             $log.info '$stateChangeError', error
 
     $WPHCAccessibility.updateBodyClass()
-    
+
     $rootScope.$on '$stateChangeSuccess', (event, toState, toParams, fromState, fromParams) ->
         $log.debug 'stateChangeSuccess', toState, toParams, fromState, fromParams
         clearTimeout stateChangeTimeout
