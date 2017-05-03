@@ -109,3 +109,26 @@ html[class^="module-bookmarks"], html[class*="module-bookmarks"]{
 
   }
 }
+
+// Flyout menu style
+ion-side-menu.menu{
+  // Todo: add better image
+  // background: url('../../config/images/veggie.jpg');
+  background: url('../../config/images/artusi-portrait.png');
+  background-size: cover;
+
+}
+ion-header-bar.flyout{
+  box-shadow: 0;
+}
+wphc-menu v-accordion v-pane > .item {
+    background: rgba(255, 255, 255, 0.5);
+    border: 0;
+    // we may need to change this if we add more items
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    &.active{
+          border-left: 2vw solid rgba(0,0,0,0.6);
+          background: rgba(255, 255, 255, 0.8);
+        }
+}

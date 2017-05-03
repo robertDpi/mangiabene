@@ -4,9 +4,6 @@
     "route": "public.posts",
     "icon": "icon ion-home"
 }, {
-    "type": "separator",
-    "trans": "Browse"
-},{
     "type": "internal",
     "trans": "menu.bookmarks",
     "route": "public.bookmarks",
