@@ -9,6 +9,31 @@
     "displayed" : ["en", "fr"]
     "prefered": "en"
 
+# BOOKMARK PAGE
+"bookmark":
+    "cache":
+        #increased this from 10
+        "capacity": 20
+
+# CACHE
+# Todo: tweak the values for a better offline experience
+"cache":
+    "img":
+        "localCacheFolder": "imgcache"
+        "useDataURI": false
+        "chromeQuota": 10485760
+        "usePersistentCache": true
+        "cacheClearSize": 0
+        "headers": {}
+        "skipURIencoding": false
+    "data":
+        "capacity": 100
+        "maxAge": 10800000
+        "deleteOnExpire": "aggressive"
+        "recycleFreq": 1000
+        "cacheFlushInterval": null
+        "storageMode": "localStorage"
+
 
 "cordova":
     "admob":
