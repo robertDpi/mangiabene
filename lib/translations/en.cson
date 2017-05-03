@@ -56,8 +56,8 @@
 "pages":
     "title": "Pages"
 "posts":
-    "title": "Posts"
-    "featured": "Featured"
+    "title": "Newest recipes"
+    "featured": "featured"
 "post":
     "comments": "Comments"
     "openInBrowser": "Open in browser"

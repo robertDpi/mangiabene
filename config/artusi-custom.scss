@@ -1,0 +1,111 @@
+$titlefont: 'Josefin Sans', sans-serif;
+//$titlefont: 'Alegreya', serif;
+//$titlefont: 'Alegreya', serif;
+
+$bodyfont1: 'Lora', serif;
+$bodyfont2: 'Crimson Text', serif;
+$bodyfont3: 'Alegreya', serif;
+
+.bar.bar-positive{
+    background: #a55241;
+}
+body {
+  //color: red;
+}
+
+
+
+
+
+
+div.stub{
+  p{
+    font-family: $bodyfont3;
+    font-size: 1rem;
+
+  }
+}
+
+div.item.item-image{
+  // use better selector
+  //position: fixed;
+  h1{
+    font-family: $titlefont;
+  }
+}
+
+
+// Specific classes for Post view page.
+
+html[class^="module-posts-"], html[class*="module-posts-"]{
+  // makes a mess with transitions
+
+  .post{
+    .post-content{
+      padding: 5vw;
+      font-family: $bodyfont3;
+    }
+  }
+  div.item.item-image{
+  //  min-height: 40vh;
+  }
+  button.burgerbutton{
+    display: none;
+  }
+  // makes a mess with transitons
+
+  // h1.item-title{
+  //   text-align: center;
+  //   padding-left: 5vw;
+  //   font-family: $titlefont;
+  //   font-weight: 700;
+  //   font-size: 2.5rem;
+  //   line-height: 3rem;
+  //   padding:1rem;
+  //   margin-top: 5vh;
+  //   color: #4F1011;
+  //   text-shadow: 0 2px 0px #C26144;
+  // }
+
+  // used for the Heart shaped bookmark in the post page - Applied on top-bar only
+  div.top-bar{
+    div.wphc-post-toolbar{
+      button{
+        margin-top: -4vh;
+        z-index: 50;
+      }
+      .button-clear{
+        margin-right: 4vw;
+        border-radius: 2em;
+        background: white;
+        padding: 3px;
+        box-shadow: 1px 1px 1px 1px;
+      }
+    }
+  }
+    //
+}
+// Specific styles for search / search results
+html[class^="module-search"], html[class*="module-search"]{
+  button.burgerbutton{
+    display: none;
+  }
+}
+// Bookmarks
+html[class^="module-bookmarks"], html[class*="module-bookmarks"]{
+  // ideally replace burger with a back navigation
+  // button.burgerbutton{
+  //   display: none;
+  // }
+  // centered text in empty bookmark page
+  p.empty-text{
+    padding: 12vw;
+    padding-top: 0;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-style: italic;
+    font-family: $bodyfont3;
+    color: $palette-secondary-text;
+
+  }
+}
