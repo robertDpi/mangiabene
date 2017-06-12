@@ -13,24 +13,19 @@ body {
   //color: red;
 }
 
+// Homepage posts list
 
+div.card-posts{
+  div.stub{
+    p{
+      font-family: $bodyfont3;
+      font-size: 1rem;
 
-
-
-
-div.stub{
-  p{
-    font-family: $bodyfont3;
-    font-size: 1rem;
-
+    }
   }
-}
-
-div.item.item-image{
-  // use better selector
-  //position: fixed;
   h1{
     font-family: $titlefont;
+    font-style: normal;
   }
 }
 
