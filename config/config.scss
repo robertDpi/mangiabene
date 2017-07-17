@@ -1,0 +1,17 @@
+// http://www.materialpalette.com/blue-grey/teal
+// Here you can also overwrite ionic's variables
+$palette-primary-dark: #ccc !default;
+$palette-primary-color: #607d8b !default;
+$palette-primary-light: #cfd8dc !default;
+$palette-primary-icon: #fff !default;
+$palette-primary-text: #212121 !default;;
+$palette-primary-background: white !default;
+$palette-accent-color: #009688 !default;
+$palette-secondary-text: #727272 !default;
+$palette-divider-color: #EAEAEA !default;
+$bar-height: 64px !default;
+
+@import "artusi-custom.scss";
+
+// @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700,700i');
+// @import url('https://fonts.googleapis.com/css?family=Alegreya:400,700|Crimson+Text:400,700|Lora:400,700');

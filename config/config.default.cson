@@ -85,7 +85,7 @@
 # POST PAGES
 "post":
     "comments":
-        "enabled": true
+        "enabled": false
         "depth": 2
         "per_page": 50
     "cache":

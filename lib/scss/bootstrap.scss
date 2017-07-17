@@ -1,4 +1,3 @@
-@import "../../config/config.scss";
 @import "./variables";
 // Include all of Ionic
 @import "../../node_modules/ionic-angular/scss/ionic";
@@ -17,3 +16,4 @@
 @import '../bookmark/index.scss';
 @import '../search/index.scss';
 @import '../accessibility/index.scss';
+@import "../../config/config.scss";

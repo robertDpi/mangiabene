@@ -1,0 +1,33 @@
+[{
+    "type": "internal",
+    "trans": "menu.home",
+    "route": "public.posts",
+    "icon": "icon ion-home"
+}, {
+    "type": "internal",
+    "trans": "menu.bookmarks",
+    "route": "public.bookmarks",
+    "icon": "icon ion-heart"
+},
+ {
+    "type": "folder",
+    "trans": "menu.recipes",
+    "icon": "icon ion-ios-paper",
+    "list": [{
+        "type": "internal",
+        "trans": "Favourites",
+        "route": "public.posts.id({ id: 1 })",
+        "icon": "icon ion-android-document"
+    }, {
+        "type": "internal",
+        "trans": "All",
+        "route": "public.posts",
+        "icon": "icon ion-ios-paper"
+    }, {
+        "type": "internal",
+        "trans": "All",
+        "route": "public.posts",
+        "icon": "icon ion-ios-paper"
+    }]
+
+}]

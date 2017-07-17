@@ -9,13 +9,14 @@
 "enabled": "Enabled"
 "menu":
     "title": "Menu"
+    "recipes": "Recipes"
     "home": "Home"
     "tags": "Tags"
     "pages": "Pages"
     "posts": "Posts"
     "authors": "Authors"
     "search": "Search"
-    "bookmarks": "Bookmarks"
+    "bookmarks": "Favourites"
     "socialNetworks": "Social Networks"
     "categories": "Categories"
     "settings": "Settings"
@@ -26,9 +27,9 @@
         "title": "New content!"
         "text": "A new Post/Page: '{{postTitle}}' has been released on {{appTitle}}, do you want to open it?"
 "bookmark":
-    "title": "Bookmarks"
-    "emptyList" : "Nothing bookmarked yet!"
-    "bookmarked" : "Bookmarked!"
+    "title": "Favourites"
+    "emptyList" : "Add some favourite recipes and see them here"
+    "bookmarked" : "Saved!"
     "removed" : "Bookmark removed!"
 "tags":
     "title": "Tags"
@@ -55,8 +56,8 @@
 "pages":
     "title": "Pages"
 "posts":
-    "title": "Posts"
-    "featured": "Featured"
+    "title": "Newest recipes"
+    "featured": "featured"
 "post":
     "comments": "Comments"
     "openInBrowser": "Open in browser"

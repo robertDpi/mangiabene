@@ -1,7 +1,7 @@
 {
-    "name": "Your App Name (45 characters max)",
-    "short_name": "Your App",
-    "description": "Your App description",
+    "name": "Artusi's Cooking",
+    "short_name": "Art of eating",
+    "description": "art of eating and science in the kitchen",
     "default_locale": "en",
     "start_url": "index.html",
     "display": "standalone",
@@ -38,6 +38,6 @@
             "type": "image/png"
         }
     ],
-    "background_color": "#4e8ef7",
+    "background_color": "#ccc",
     "theme_color": "#4e8ef7"
 }
