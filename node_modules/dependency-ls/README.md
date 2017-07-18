@@ -8,7 +8,7 @@ This module is essentially a fork of https://www.npmjs.com/package/npmlist. I ju
 
     npm instal dependency-ls --save
 
-    var dep-ls = require('dependency-ls')
+    var depls = require('dependency-ls')
     return depls(process.cwd())
     .then(function(result) {
         console.log(result)
